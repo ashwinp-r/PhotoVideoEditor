@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF43106C22C035C90051FAA5 /* videoControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43106B22C035C90051FAA5 /* videoControllerTests.swift */; };
-		FF43108322C036420051FAA5 /* PhotoVideoEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF43107A22C036420051FAA5 /* PhotoVideoEditor.framework */; };
-		FF43108822C036420051FAA5 /* PhotoVideoEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43108722C036420051FAA5 /* PhotoVideoEditorTests.swift */; };
-		FF43108A22C036420051FAA5 /* PhotoVideoEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = FF43107C22C036420051FAA5 /* PhotoVideoEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF43109122C03D970051FAA5 /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D82219989EC008C66B6 /* Orientation.swift */; };
+		FF43109222C03D970051FAA5 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D7E219989EB008C66B6 /* PreviewView.swift */; };
+		FF43109322C03D970051FAA5 /* SwiftyCamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D7D219989EB008C66B6 /* SwiftyCamButton.swift */; };
+		FF43109422C03D970051FAA5 /* SwiftyCamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D7F219989EC008C66B6 /* SwiftyCamViewController.swift */; };
+		FF43109522C03D970051FAA5 /* SwiftyCamViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D80219989EC008C66B6 /* SwiftyCamViewControllerDelegate.swift */; };
+		FF43109622C03D970051FAA5 /* SwiftyRecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D81219989EC008C66B6 /* SwiftyRecordButton.swift */; };
+		FF43109722C03D970051FAA5 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D8921998B8A008C66B6 /* CameraVC.swift */; };
+		FF43109822C03D970051FAA5 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D5B21998736008C66B6 /* BottomSheetViewController.swift */; };
+		FF43109922C03D970051FAA5 /* BottomSheetViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D5621998736008C66B6 /* BottomSheetViewController.xib */; };
+		FF43109A22C03D970051FAA5 /* ColorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D6621998737008C66B6 /* ColorCollectionViewCell.swift */; };
+		FF43109B22C03D970051FAA5 /* ColorCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D6321998737008C66B6 /* ColorCollectionViewCell.xib */; };
+		FF43109C22C03D9D0051FAA5 /* ColorsCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D6221998737008C66B6 /* ColorsCollectionViewDelegate.swift */; };
+		FF43109D22C03D9D0051FAA5 /* EmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D5921998736008C66B6 /* EmojiCollectionViewCell.swift */; };
+		FF43109E22C03D9D0051FAA5 /* EmojiCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D5F21998737008C66B6 /* EmojiCollectionViewCell.xib */; };
+		FF43109F22C03D9D0051FAA5 /* EmojisCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D6721998737008C66B6 /* EmojisCollectionViewDelegate.swift */; };
+		FF4310A022C03D9D0051FAA5 /* Eventtus-Icons.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D6121998737008C66B6 /* Eventtus-Icons.ttf */; };
+		FF4310A122C03D9D0051FAA5 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D5521998736008C66B6 /* GradientView.swift */; };
+		FF4310A222C03D9D0051FAA5 /* Pencil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D5421998736008C66B6 /* Pencil.swift */; };
+		FF4310A322C03D9D0051FAA5 /* PhotoEditor.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D6421998737008C66B6 /* PhotoEditor.storyboard */; };
+		FF4310A422C03D9D0051FAA5 /* PhotoEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D5C21998736008C66B6 /* PhotoEditorViewController.swift */; };
+		FF4310A522C03D9D0051FAA5 /* StickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D5721998736008C66B6 /* StickerCollectionViewCell.swift */; };
+		FF4310A622C03D9D0051FAA5 /* StickerCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D5821998736008C66B6 /* StickerCollectionViewCell.xib */; };
+		FF4310A722C03D9D0051FAA5 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D5A21998736008C66B6 /* UIImageExtensions.swift */; };
+		FF4310A822C03D9D0051FAA5 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D5D21998737008C66B6 /* UIImageViewExtensions.swift */; };
+		FF4310A922C03D9D0051FAA5 /* UIView+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D6521998737008C66B6 /* UIView+Image.swift */; };
+		FF4310AA22C03D9D0051FAA5 /* ViewGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D6021998737008C66B6 /* ViewGestures.swift */; };
+		FF4310AB22C03DA30051FAA5 /* WatermarkCompositionInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D5E21998737008C66B6 /* WatermarkCompositionInstruction.swift */; };
+		FF4310AC22C03DA30051FAA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D26219986E1008C66B6 /* AppDelegate.swift */; };
+		FF4310AD22C03DA30051FAA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D28219986E1008C66B6 /* ViewController.swift */; };
+		FF4310AE22C03DA30051FAA5 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D2A219986E1008C66B6 /* Main.storyboard */; };
+		FF4310AF22C03DA30051FAA5 /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D2D219986E4008C66B6 /* Assets.xcassets */; };
+		FF4310B022C03DA30051FAA5 /* LaunchScreen.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D2F219986E4008C66B6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FF43108422C036420051FAA5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 647E6D1B219986E1008C66B6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FF43107922C036420051FAA5;
-			remoteInfo = PhotoVideoEditor;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		647E6D26219986E1008C66B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -31,7 +49,6 @@
 		647E6D30219986E4008C66B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		647E6D32219986E4008C66B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		647E6D37219986E4008C66B6 /* PhotoVideoEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoVideoEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		647E6D42219986E5008C66B6 /* PhotoVideoEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoVideoEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		647E6D5421998736008C66B6 /* Pencil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pencil.swift; sourceTree = "<group>"; };
 		647E6D5521998736008C66B6 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		647E6D5621998736008C66B6 /* BottomSheetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomSheetViewController.xib; sourceTree = "<group>"; };
@@ -59,35 +76,11 @@
 		647E6D81219989EC008C66B6 /* SwiftyRecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyRecordButton.swift; sourceTree = "<group>"; };
 		647E6D82219989EC008C66B6 /* Orientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orientation.swift; sourceTree = "<group>"; };
 		647E6D8921998B8A008C66B6 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
-		FF43103D22C033AA0051FAA5 /* videoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = videoController.h; sourceTree = "<group>"; };
-		FF43103E22C033AA0051FAA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF43106622C035C90051FAA5 /* videoControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = videoControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF43106B22C035C90051FAA5 /* videoControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoControllerTests.swift; sourceTree = "<group>"; };
-		FF43106D22C035C90051FAA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF43107A22C036420051FAA5 /* PhotoVideoEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhotoVideoEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF43107C22C036420051FAA5 /* PhotoVideoEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoVideoEditor.h; sourceTree = "<group>"; };
-		FF43107D22C036420051FAA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF43108222C036420051FAA5 /* PhotoVideoEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoVideoEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF43108722C036420051FAA5 /* PhotoVideoEditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoVideoEditorTests.swift; sourceTree = "<group>"; };
-		FF43108922C036420051FAA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		647E6D34219986E4008C66B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		647E6D3F219986E5008C66B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF43106322C035C90051FAA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -101,14 +94,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF43107F22C036420051FAA5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FF43108322C036420051FAA5 /* PhotoVideoEditor.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -116,10 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				647E6D25219986E1008C66B6 /* PhotoVideoEditor */,
-				FF43103C22C033AA0051FAA5 /* videoController */,
-				FF43106A22C035C90051FAA5 /* videoControllerTests */,
-				FF43107B22C036420051FAA5 /* PhotoVideoEditor */,
-				FF43108622C036420051FAA5 /* PhotoVideoEditorTests */,
 				647E6D24219986E1008C66B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -128,10 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				647E6D37219986E4008C66B6 /* PhotoVideoEditorTests.xctest */,
-				647E6D42219986E5008C66B6 /* PhotoVideoEditorUITests.xctest */,
-				FF43106622C035C90051FAA5 /* videoControllerTests.xctest */,
 				FF43107A22C036420051FAA5 /* PhotoVideoEditor.framework */,
-				FF43108222C036420051FAA5 /* PhotoVideoEditorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,42 +162,6 @@
 			path = camera;
 			sourceTree = "<group>";
 		};
-		FF43103C22C033AA0051FAA5 /* videoController */ = {
-			isa = PBXGroup;
-			children = (
-				FF43103D22C033AA0051FAA5 /* videoController.h */,
-				FF43103E22C033AA0051FAA5 /* Info.plist */,
-			);
-			path = videoController;
-			sourceTree = "<group>";
-		};
-		FF43106A22C035C90051FAA5 /* videoControllerTests */ = {
-			isa = PBXGroup;
-			children = (
-				FF43106B22C035C90051FAA5 /* videoControllerTests.swift */,
-				FF43106D22C035C90051FAA5 /* Info.plist */,
-			);
-			path = videoControllerTests;
-			sourceTree = "<group>";
-		};
-		FF43107B22C036420051FAA5 /* PhotoVideoEditor */ = {
-			isa = PBXGroup;
-			children = (
-				FF43107C22C036420051FAA5 /* PhotoVideoEditor.h */,
-				FF43107D22C036420051FAA5 /* Info.plist */,
-			);
-			path = PhotoVideoEditor;
-			sourceTree = "<group>";
-		};
-		FF43108622C036420051FAA5 /* PhotoVideoEditorTests */ = {
-			isa = PBXGroup;
-			children = (
-				FF43108722C036420051FAA5 /* PhotoVideoEditorTests.swift */,
-				FF43108922C036420051FAA5 /* Info.plist */,
-			);
-			path = PhotoVideoEditorTests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -227,7 +169,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF43108A22C036420051FAA5 /* PhotoVideoEditor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,40 +192,6 @@
 			productReference = 647E6D37219986E4008C66B6 /* PhotoVideoEditorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		647E6D41219986E5008C66B6 /* PhotoVideoEditorUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 647E6D51219986E5008C66B6 /* Build configuration list for PBXNativeTarget "PhotoVideoEditorUITests" */;
-			buildPhases = (
-				647E6D3E219986E5008C66B6 /* Sources */,
-				647E6D3F219986E5008C66B6 /* Frameworks */,
-				647E6D40219986E5008C66B6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PhotoVideoEditorUITests;
-			productName = PhotoVideoEditorUITests;
-			productReference = 647E6D42219986E5008C66B6 /* PhotoVideoEditorUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		FF43106522C035C90051FAA5 /* videoControllerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FF43107222C035C90051FAA5 /* Build configuration list for PBXNativeTarget "videoControllerTests" */;
-			buildPhases = (
-				FF43106222C035C90051FAA5 /* Sources */,
-				FF43106322C035C90051FAA5 /* Frameworks */,
-				FF43106422C035C90051FAA5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = videoControllerTests;
-			productName = videoControllerTests;
-			productReference = FF43106622C035C90051FAA5 /* videoControllerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		FF43107922C036420051FAA5 /* PhotoVideoEditor */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF43108B22C036420051FAA5 /* Build configuration list for PBXNativeTarget "PhotoVideoEditor" */;
@@ -303,24 +210,6 @@
 			productReference = FF43107A22C036420051FAA5 /* PhotoVideoEditor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FF43108122C036420051FAA5 /* PhotoVideoEditorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FF43108E22C036420051FAA5 /* Build configuration list for PBXNativeTarget "PhotoVideoEditorTests" */;
-			buildPhases = (
-				FF43107E22C036420051FAA5 /* Sources */,
-				FF43107F22C036420051FAA5 /* Frameworks */,
-				FF43108022C036420051FAA5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FF43108522C036420051FAA5 /* PBXTargetDependency */,
-			);
-			name = PhotoVideoEditorTests;
-			productName = PhotoVideoEditorTests;
-			productReference = FF43108222C036420051FAA5 /* PhotoVideoEditorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -335,17 +224,7 @@
 						CreatedOnToolsVersion = 10.0;
 						TestTargetID = 647E6D22219986E1008C66B6;
 					};
-					647E6D41219986E5008C66B6 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 647E6D22219986E1008C66B6;
-					};
-					FF43106522C035C90051FAA5 = {
-						CreatedOnToolsVersion = 11.0;
-					};
 					FF43107922C036420051FAA5 = {
-						CreatedOnToolsVersion = 11.0;
-					};
-					FF43108122C036420051FAA5 = {
 						CreatedOnToolsVersion = 11.0;
 					};
 				};
@@ -364,10 +243,7 @@
 			projectRoot = "";
 			targets = (
 				647E6D36219986E4008C66B6 /* PhotoVideoEditorTests */,
-				647E6D41219986E5008C66B6 /* PhotoVideoEditorUITests */,
-				FF43106522C035C90051FAA5 /* videoControllerTests */,
 				FF43107922C036420051FAA5 /* PhotoVideoEditor */,
-				FF43108122C036420051FAA5 /* PhotoVideoEditorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -380,28 +256,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		647E6D40219986E5008C66B6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF43106422C035C90051FAA5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FF43107822C036420051FAA5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF43108022C036420051FAA5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -418,45 +273,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		647E6D3E219986E5008C66B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF43106222C035C90051FAA5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FF43106C22C035C90051FAA5 /* videoControllerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FF43107622C036420051FAA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF43107E22C036420051FAA5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FF43108822C036420051FAA5 /* PhotoVideoEditorTests.swift in Sources */,
+				FF4310AB22C03DA30051FAA5 /* WatermarkCompositionInstruction.swift in Sources */,
+				FF4310AC22C03DA30051FAA5 /* AppDelegate.swift in Sources */,
+				FF4310AD22C03DA30051FAA5 /* ViewController.swift in Sources */,
+				FF4310AE22C03DA30051FAA5 /* Main.storyboard in Sources */,
+				FF4310AF22C03DA30051FAA5 /* Assets.xcassets in Sources */,
+				FF4310B022C03DA30051FAA5 /* LaunchScreen.storyboard in Sources */,
+				FF43109C22C03D9D0051FAA5 /* ColorsCollectionViewDelegate.swift in Sources */,
+				FF43109D22C03D9D0051FAA5 /* EmojiCollectionViewCell.swift in Sources */,
+				FF43109E22C03D9D0051FAA5 /* EmojiCollectionViewCell.xib in Sources */,
+				FF43109F22C03D9D0051FAA5 /* EmojisCollectionViewDelegate.swift in Sources */,
+				FF4310A022C03D9D0051FAA5 /* Eventtus-Icons.ttf in Sources */,
+				FF4310A122C03D9D0051FAA5 /* GradientView.swift in Sources */,
+				FF4310A222C03D9D0051FAA5 /* Pencil.swift in Sources */,
+				FF4310A322C03D9D0051FAA5 /* PhotoEditor.storyboard in Sources */,
+				FF4310A422C03D9D0051FAA5 /* PhotoEditorViewController.swift in Sources */,
+				FF4310A522C03D9D0051FAA5 /* StickerCollectionViewCell.swift in Sources */,
+				FF4310A622C03D9D0051FAA5 /* StickerCollectionViewCell.xib in Sources */,
+				FF4310A722C03D9D0051FAA5 /* UIImageExtensions.swift in Sources */,
+				FF4310A822C03D9D0051FAA5 /* UIImageViewExtensions.swift in Sources */,
+				FF4310A922C03D9D0051FAA5 /* UIView+Image.swift in Sources */,
+				FF4310AA22C03D9D0051FAA5 /* ViewGestures.swift in Sources */,
+				FF43109122C03D970051FAA5 /* Orientation.swift in Sources */,
+				FF43109222C03D970051FAA5 /* PreviewView.swift in Sources */,
+				FF43109322C03D970051FAA5 /* SwiftyCamButton.swift in Sources */,
+				FF43109422C03D970051FAA5 /* SwiftyCamViewController.swift in Sources */,
+				FF43109522C03D970051FAA5 /* SwiftyCamViewControllerDelegate.swift in Sources */,
+				FF43109622C03D970051FAA5 /* SwiftyRecordButton.swift in Sources */,
+				FF43109722C03D970051FAA5 /* CameraVC.swift in Sources */,
+				FF43109822C03D970051FAA5 /* BottomSheetViewController.swift in Sources */,
+				FF43109922C03D970051FAA5 /* BottomSheetViewController.xib in Sources */,
+				FF43109A22C03D970051FAA5 /* ColorCollectionViewCell.swift in Sources */,
+				FF43109B22C03D970051FAA5 /* ColorCollectionViewCell.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FF43108522C036420051FAA5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FF43107922C036420051FAA5 /* PhotoVideoEditor */;
-			targetProxy = FF43108422C036420051FAA5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		647E6D2A219986E1008C66B6 /* Main.storyboard */ = {
@@ -636,84 +492,6 @@
 			};
 			name = Release;
 		};
-		647E6D52219986E5008C66B6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7X2KJ7S3VX;
-				INFOPLIST_FILE = PhotoVideoEditorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.com.PhotoVideoEditorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PhotoVideoEditor;
-			};
-			name = Debug;
-		};
-		647E6D53219986E5008C66B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7X2KJ7S3VX;
-				INFOPLIST_FILE = PhotoVideoEditorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.com.PhotoVideoEditorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PhotoVideoEditor;
-			};
-			name = Release;
-		};
-		FF43107322C035C90051FAA5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G6CW59CC94;
-				INFOPLIST_FILE = videoControllerTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.videoControllerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		FF43107422C035C90051FAA5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G6CW59CC94;
-				INFOPLIST_FILE = videoControllerTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.videoControllerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		FF43108C22C036420051FAA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -770,44 +548,6 @@
 			};
 			name = Release;
 		};
-		FF43108F22C036420051FAA5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G6CW59CC94;
-				INFOPLIST_FILE = PhotoVideoEditorTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.PhotoVideoEditorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		FF43109022C036420051FAA5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G6CW59CC94;
-				INFOPLIST_FILE = PhotoVideoEditorTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.PhotoVideoEditorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -829,38 +569,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		647E6D51219986E5008C66B6 /* Build configuration list for PBXNativeTarget "PhotoVideoEditorUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				647E6D52219986E5008C66B6 /* Debug */,
-				647E6D53219986E5008C66B6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FF43107222C035C90051FAA5 /* Build configuration list for PBXNativeTarget "videoControllerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FF43107322C035C90051FAA5 /* Debug */,
-				FF43107422C035C90051FAA5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		FF43108B22C036420051FAA5 /* Build configuration list for PBXNativeTarget "PhotoVideoEditor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF43108C22C036420051FAA5 /* Debug */,
 				FF43108D22C036420051FAA5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FF43108E22C036420051FAA5 /* Build configuration list for PBXNativeTarget "PhotoVideoEditorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FF43108F22C036420051FAA5 /* Debug */,
-				FF43109022C036420051FAA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
