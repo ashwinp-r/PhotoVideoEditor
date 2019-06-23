@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "647E6D22219986E1008C66B6"
-               BuildableName = "PhotoVideoEditor.app"
+               BlueprintIdentifier = "FF43107922C036420051FAA5"
+               BuildableName = "PhotoVideoEditor.framework"
                BlueprintName = "PhotoVideoEditor"
                ReferencedContainer = "container:PhotoVideoEditor.xcodeproj">
             </BuildableReference>
@@ -52,7 +52,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FF43104222C033AA0051FAA5"
+               BlueprintIdentifier = "FF43106522C035C90051FAA5"
                BuildableName = "videoControllerTests.xctest"
                BlueprintName = "videoControllerTests"
                ReferencedContainer = "container:PhotoVideoEditor.xcodeproj">
@@ -74,8 +74,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "647E6D22219986E1008C66B6"
-            BuildableName = "PhotoVideoEditor.app"
+            BlueprintIdentifier = "FF43107922C036420051FAA5"
+            BuildableName = "PhotoVideoEditor.framework"
             BlueprintName = "PhotoVideoEditor"
             ReferencedContainer = "container:PhotoVideoEditor.xcodeproj">
          </BuildableReference>
@@ -91,8 +91,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "647E6D22219986E1008C66B6"
-            BuildableName = "PhotoVideoEditor.app"
+            BlueprintIdentifier = "FF43107922C036420051FAA5"
+            BuildableName = "PhotoVideoEditor.framework"
             BlueprintName = "PhotoVideoEditor"
             ReferencedContainer = "container:PhotoVideoEditor.xcodeproj">
          </BuildableReference>

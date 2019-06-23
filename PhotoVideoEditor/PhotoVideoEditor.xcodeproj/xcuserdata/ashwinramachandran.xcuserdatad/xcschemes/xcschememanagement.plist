@@ -9,20 +9,37 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>ashwinVideoEditor.xcscheme_^#shared#^_</key>
+		<key>PhotoVideoEditorTests.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
-		<key>videoController.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>647E6D22219986E1008C66B6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FF43105D22C035C80051FAA5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FF43106522C035C90051FAA5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FF43107922C036420051FAA5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FF43108122C036420051FAA5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

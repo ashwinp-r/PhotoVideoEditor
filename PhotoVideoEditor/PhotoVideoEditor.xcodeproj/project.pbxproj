@@ -7,99 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		647E6D27219986E1008C66B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D26219986E1008C66B6 /* AppDelegate.swift */; };
-		647E6D29219986E1008C66B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D28219986E1008C66B6 /* ViewController.swift */; };
-		647E6D2C219986E1008C66B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647E6D2A219986E1008C66B6 /* Main.storyboard */; };
-		647E6D2E219986E4008C66B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647E6D2D219986E4008C66B6 /* Assets.xcassets */; };
-		647E6D31219986E4008C66B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647E6D2F219986E4008C66B6 /* LaunchScreen.storyboard */; };
-		647E6D6821998737008C66B6 /* Pencil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D5421998736008C66B6 /* Pencil.swift */; };
-		647E6D6921998737008C66B6 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D5521998736008C66B6 /* GradientView.swift */; };
-		647E6D6A21998737008C66B6 /* BottomSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 647E6D5621998736008C66B6 /* BottomSheetViewController.xib */; };
-		647E6D6B21998737008C66B6 /* StickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D5721998736008C66B6 /* StickerCollectionViewCell.swift */; };
-		647E6D6C21998737008C66B6 /* StickerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 647E6D5821998736008C66B6 /* StickerCollectionViewCell.xib */; };
-		647E6D6D21998737008C66B6 /* EmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D5921998736008C66B6 /* EmojiCollectionViewCell.swift */; };
-		647E6D6E21998737008C66B6 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D5A21998736008C66B6 /* UIImageExtensions.swift */; };
-		647E6D6F21998737008C66B6 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D5B21998736008C66B6 /* BottomSheetViewController.swift */; };
-		647E6D7021998737008C66B6 /* PhotoEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D5C21998736008C66B6 /* PhotoEditorViewController.swift */; };
-		647E6D7121998737008C66B6 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D5D21998737008C66B6 /* UIImageViewExtensions.swift */; };
-		647E6D7221998737008C66B6 /* WatermarkCompositionInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D5E21998737008C66B6 /* WatermarkCompositionInstruction.swift */; };
-		647E6D7321998737008C66B6 /* EmojiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 647E6D5F21998737008C66B6 /* EmojiCollectionViewCell.xib */; };
-		647E6D7421998737008C66B6 /* ViewGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D6021998737008C66B6 /* ViewGestures.swift */; };
-		647E6D7521998737008C66B6 /* Eventtus-Icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 647E6D6121998737008C66B6 /* Eventtus-Icons.ttf */; };
-		647E6D7621998737008C66B6 /* ColorsCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D6221998737008C66B6 /* ColorsCollectionViewDelegate.swift */; };
-		647E6D7721998737008C66B6 /* ColorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 647E6D6321998737008C66B6 /* ColorCollectionViewCell.xib */; };
-		647E6D7821998737008C66B6 /* PhotoEditor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647E6D6421998737008C66B6 /* PhotoEditor.storyboard */; };
-		647E6D7921998737008C66B6 /* UIView+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D6521998737008C66B6 /* UIView+Image.swift */; };
-		647E6D7A21998737008C66B6 /* ColorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D6621998737008C66B6 /* ColorCollectionViewCell.swift */; };
-		647E6D7B21998737008C66B6 /* EmojisCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D6721998737008C66B6 /* EmojisCollectionViewDelegate.swift */; };
-		647E6D83219989EC008C66B6 /* SwiftyCamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D7D219989EB008C66B6 /* SwiftyCamButton.swift */; };
-		647E6D84219989EC008C66B6 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D7E219989EB008C66B6 /* PreviewView.swift */; };
-		647E6D85219989EC008C66B6 /* SwiftyCamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D7F219989EC008C66B6 /* SwiftyCamViewController.swift */; };
-		647E6D86219989EC008C66B6 /* SwiftyCamViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D80219989EC008C66B6 /* SwiftyCamViewControllerDelegate.swift */; };
-		647E6D87219989EC008C66B6 /* SwiftyRecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D81219989EC008C66B6 /* SwiftyRecordButton.swift */; };
-		647E6D88219989EC008C66B6 /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D82219989EC008C66B6 /* Orientation.swift */; };
-		647E6D8A21998B8A008C66B6 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647E6D8921998B8A008C66B6 /* CameraVC.swift */; };
-		FF43104422C033AA0051FAA5 /* videoController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF43103B22C033AA0051FAA5 /* videoController.framework */; };
-		FF43104B22C033AA0051FAA5 /* videoControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43104A22C033AA0051FAA5 /* videoControllerTests.swift */; };
-		FF43104D22C033AA0051FAA5 /* videoController.h in Headers */ = {isa = PBXBuildFile; fileRef = FF43103D22C033AA0051FAA5 /* videoController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF43105022C033AA0051FAA5 /* videoController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF43103B22C033AA0051FAA5 /* videoController.framework */; };
-		FF43105122C033AA0051FAA5 /* videoController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF43103B22C033AA0051FAA5 /* videoController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF43106C22C035C90051FAA5 /* videoControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43106B22C035C90051FAA5 /* videoControllerTests.swift */; };
+		FF43108322C036420051FAA5 /* PhotoVideoEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF43107A22C036420051FAA5 /* PhotoVideoEditor.framework */; };
+		FF43108822C036420051FAA5 /* PhotoVideoEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF43108722C036420051FAA5 /* PhotoVideoEditorTests.swift */; };
+		FF43108A22C036420051FAA5 /* PhotoVideoEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = FF43107C22C036420051FAA5 /* PhotoVideoEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		647E6D38219986E4008C66B6 /* PBXContainerItemProxy */ = {
+		FF43108422C036420051FAA5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 647E6D1B219986E1008C66B6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 647E6D22219986E1008C66B6;
+			remoteGlobalIDString = FF43107922C036420051FAA5;
 			remoteInfo = PhotoVideoEditor;
-		};
-		647E6D43219986E5008C66B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 647E6D1B219986E1008C66B6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 647E6D22219986E1008C66B6;
-			remoteInfo = PhotoVideoEditor;
-		};
-		FF43104522C033AA0051FAA5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 647E6D1B219986E1008C66B6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FF43103A22C033AA0051FAA5;
-			remoteInfo = videoController;
-		};
-		FF43104722C033AA0051FAA5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 647E6D1B219986E1008C66B6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 647E6D22219986E1008C66B6;
-			remoteInfo = PhotoVideoEditor;
-		};
-		FF43104E22C033AA0051FAA5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 647E6D1B219986E1008C66B6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FF43103A22C033AA0051FAA5;
-			remoteInfo = videoController;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		FF43105222C033AA0051FAA5 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				FF43105122C033AA0051FAA5 /* videoController.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		647E6D23219986E1008C66B6 /* PhotoVideoEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoVideoEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		647E6D26219986E1008C66B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		647E6D28219986E1008C66B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		647E6D2B219986E1008C66B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -135,23 +59,20 @@
 		647E6D81219989EC008C66B6 /* SwiftyRecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyRecordButton.swift; sourceTree = "<group>"; };
 		647E6D82219989EC008C66B6 /* Orientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orientation.swift; sourceTree = "<group>"; };
 		647E6D8921998B8A008C66B6 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
-		FF43103B22C033AA0051FAA5 /* videoController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = videoController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF43103D22C033AA0051FAA5 /* videoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = videoController.h; sourceTree = "<group>"; };
 		FF43103E22C033AA0051FAA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF43104322C033AA0051FAA5 /* videoControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = videoControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF43104A22C033AA0051FAA5 /* videoControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoControllerTests.swift; sourceTree = "<group>"; };
-		FF43104C22C033AA0051FAA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF43106622C035C90051FAA5 /* videoControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = videoControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF43106B22C035C90051FAA5 /* videoControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoControllerTests.swift; sourceTree = "<group>"; };
+		FF43106D22C035C90051FAA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF43107A22C036420051FAA5 /* PhotoVideoEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhotoVideoEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF43107C22C036420051FAA5 /* PhotoVideoEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoVideoEditor.h; sourceTree = "<group>"; };
+		FF43107D22C036420051FAA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF43108222C036420051FAA5 /* PhotoVideoEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoVideoEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF43108722C036420051FAA5 /* PhotoVideoEditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoVideoEditorTests.swift; sourceTree = "<group>"; };
+		FF43108922C036420051FAA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		647E6D20219986E1008C66B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FF43105022C033AA0051FAA5 /* videoController.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		647E6D34219986E4008C66B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -166,18 +87,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF43103822C033AA0051FAA5 /* Frameworks */ = {
+		FF43106322C035C90051FAA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF43104022C033AA0051FAA5 /* Frameworks */ = {
+		FF43107722C036420051FAA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF43104422C033AA0051FAA5 /* videoController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF43107F22C036420051FAA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF43108322C036420051FAA5 /* PhotoVideoEditor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +117,9 @@
 			children = (
 				647E6D25219986E1008C66B6 /* PhotoVideoEditor */,
 				FF43103C22C033AA0051FAA5 /* videoController */,
-				FF43104922C033AA0051FAA5 /* videoControllerTests */,
+				FF43106A22C035C90051FAA5 /* videoControllerTests */,
+				FF43107B22C036420051FAA5 /* PhotoVideoEditor */,
+				FF43108622C036420051FAA5 /* PhotoVideoEditorTests */,
 				647E6D24219986E1008C66B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -197,11 +127,11 @@
 		647E6D24219986E1008C66B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				647E6D23219986E1008C66B6 /* PhotoVideoEditor.app */,
 				647E6D37219986E4008C66B6 /* PhotoVideoEditorTests.xctest */,
 				647E6D42219986E5008C66B6 /* PhotoVideoEditorUITests.xctest */,
-				FF43103B22C033AA0051FAA5 /* videoController.framework */,
-				FF43104322C033AA0051FAA5 /* videoControllerTests.xctest */,
+				FF43106622C035C90051FAA5 /* videoControllerTests.xctest */,
+				FF43107A22C036420051FAA5 /* PhotoVideoEditor.framework */,
+				FF43108222C036420051FAA5 /* PhotoVideoEditorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -263,48 +193,47 @@
 			path = videoController;
 			sourceTree = "<group>";
 		};
-		FF43104922C033AA0051FAA5 /* videoControllerTests */ = {
+		FF43106A22C035C90051FAA5 /* videoControllerTests */ = {
 			isa = PBXGroup;
 			children = (
-				FF43104A22C033AA0051FAA5 /* videoControllerTests.swift */,
-				FF43104C22C033AA0051FAA5 /* Info.plist */,
+				FF43106B22C035C90051FAA5 /* videoControllerTests.swift */,
+				FF43106D22C035C90051FAA5 /* Info.plist */,
 			);
 			path = videoControllerTests;
+			sourceTree = "<group>";
+		};
+		FF43107B22C036420051FAA5 /* PhotoVideoEditor */ = {
+			isa = PBXGroup;
+			children = (
+				FF43107C22C036420051FAA5 /* PhotoVideoEditor.h */,
+				FF43107D22C036420051FAA5 /* Info.plist */,
+			);
+			path = PhotoVideoEditor;
+			sourceTree = "<group>";
+		};
+		FF43108622C036420051FAA5 /* PhotoVideoEditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF43108722C036420051FAA5 /* PhotoVideoEditorTests.swift */,
+				FF43108922C036420051FAA5 /* Info.plist */,
+			);
+			path = PhotoVideoEditorTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		FF43103622C033AA0051FAA5 /* Headers */ = {
+		FF43107522C036420051FAA5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF43104D22C033AA0051FAA5 /* videoController.h in Headers */,
+				FF43108A22C036420051FAA5 /* PhotoVideoEditor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		647E6D22219986E1008C66B6 /* PhotoVideoEditor */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 647E6D4B219986E5008C66B6 /* Build configuration list for PBXNativeTarget "PhotoVideoEditor" */;
-			buildPhases = (
-				647E6D1F219986E1008C66B6 /* Sources */,
-				647E6D20219986E1008C66B6 /* Frameworks */,
-				647E6D21219986E1008C66B6 /* Resources */,
-				FF43105222C033AA0051FAA5 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FF43104F22C033AA0051FAA5 /* PBXTargetDependency */,
-			);
-			name = PhotoVideoEditor;
-			productName = PhotoVideoEditor;
-			productReference = 647E6D23219986E1008C66B6 /* PhotoVideoEditor.app */;
-			productType = "com.apple.product-type.application";
-		};
 		647E6D36219986E4008C66B6 /* PhotoVideoEditorTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 647E6D4E219986E5008C66B6 /* Build configuration list for PBXNativeTarget "PhotoVideoEditorTests" */;
@@ -316,7 +245,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				647E6D39219986E4008C66B6 /* PBXTargetDependency */,
 			);
 			name = PhotoVideoEditorTests;
 			productName = PhotoVideoEditorTests;
@@ -334,48 +262,63 @@
 			buildRules = (
 			);
 			dependencies = (
-				647E6D44219986E5008C66B6 /* PBXTargetDependency */,
 			);
 			name = PhotoVideoEditorUITests;
 			productName = PhotoVideoEditorUITests;
 			productReference = 647E6D42219986E5008C66B6 /* PhotoVideoEditorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		FF43103A22C033AA0051FAA5 /* videoController */ = {
+		FF43106522C035C90051FAA5 /* videoControllerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF43105722C033AA0051FAA5 /* Build configuration list for PBXNativeTarget "videoController" */;
+			buildConfigurationList = FF43107222C035C90051FAA5 /* Build configuration list for PBXNativeTarget "videoControllerTests" */;
 			buildPhases = (
-				FF43103622C033AA0051FAA5 /* Headers */,
-				FF43103722C033AA0051FAA5 /* Sources */,
-				FF43103822C033AA0051FAA5 /* Frameworks */,
-				FF43103922C033AA0051FAA5 /* Resources */,
+				FF43106222C035C90051FAA5 /* Sources */,
+				FF43106322C035C90051FAA5 /* Frameworks */,
+				FF43106422C035C90051FAA5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = videoController;
-			productName = videoController;
-			productReference = FF43103B22C033AA0051FAA5 /* videoController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FF43104222C033AA0051FAA5 /* videoControllerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FF43105822C033AA0051FAA5 /* Build configuration list for PBXNativeTarget "videoControllerTests" */;
-			buildPhases = (
-				FF43103F22C033AA0051FAA5 /* Sources */,
-				FF43104022C033AA0051FAA5 /* Frameworks */,
-				FF43104122C033AA0051FAA5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FF43104622C033AA0051FAA5 /* PBXTargetDependency */,
-				FF43104822C033AA0051FAA5 /* PBXTargetDependency */,
 			);
 			name = videoControllerTests;
 			productName = videoControllerTests;
-			productReference = FF43104322C033AA0051FAA5 /* videoControllerTests.xctest */;
+			productReference = FF43106622C035C90051FAA5 /* videoControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF43107922C036420051FAA5 /* PhotoVideoEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF43108B22C036420051FAA5 /* Build configuration list for PBXNativeTarget "PhotoVideoEditor" */;
+			buildPhases = (
+				FF43107522C036420051FAA5 /* Headers */,
+				FF43107622C036420051FAA5 /* Sources */,
+				FF43107722C036420051FAA5 /* Frameworks */,
+				FF43107822C036420051FAA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoVideoEditor;
+			productName = PhotoVideoEditor;
+			productReference = FF43107A22C036420051FAA5 /* PhotoVideoEditor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF43108122C036420051FAA5 /* PhotoVideoEditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF43108E22C036420051FAA5 /* Build configuration list for PBXNativeTarget "PhotoVideoEditorTests" */;
+			buildPhases = (
+				FF43107E22C036420051FAA5 /* Sources */,
+				FF43107F22C036420051FAA5 /* Frameworks */,
+				FF43108022C036420051FAA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF43108522C036420051FAA5 /* PBXTargetDependency */,
+			);
+			name = PhotoVideoEditorTests;
+			productName = PhotoVideoEditorTests;
+			productReference = FF43108222C036420051FAA5 /* PhotoVideoEditorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -386,11 +329,8 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = "Faris Albalawi";
+				ORGANIZATIONNAME = "Ashwin Ramachandran";
 				TargetAttributes = {
-					647E6D22219986E1008C66B6 = {
-						CreatedOnToolsVersion = 10.0;
-					};
 					647E6D36219986E4008C66B6 = {
 						CreatedOnToolsVersion = 10.0;
 						TestTargetID = 647E6D22219986E1008C66B6;
@@ -399,12 +339,14 @@
 						CreatedOnToolsVersion = 10.0;
 						TestTargetID = 647E6D22219986E1008C66B6;
 					};
-					FF43103A22C033AA0051FAA5 = {
+					FF43106522C035C90051FAA5 = {
 						CreatedOnToolsVersion = 11.0;
 					};
-					FF43104222C033AA0051FAA5 = {
+					FF43107922C036420051FAA5 = {
 						CreatedOnToolsVersion = 11.0;
-						TestTargetID = 647E6D22219986E1008C66B6;
+					};
+					FF43108122C036420051FAA5 = {
+						CreatedOnToolsVersion = 11.0;
 					};
 				};
 			};
@@ -421,32 +363,16 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				647E6D22219986E1008C66B6 /* PhotoVideoEditor */,
 				647E6D36219986E4008C66B6 /* PhotoVideoEditorTests */,
 				647E6D41219986E5008C66B6 /* PhotoVideoEditorUITests */,
-				FF43103A22C033AA0051FAA5 /* videoController */,
-				FF43104222C033AA0051FAA5 /* videoControllerTests */,
+				FF43106522C035C90051FAA5 /* videoControllerTests */,
+				FF43107922C036420051FAA5 /* PhotoVideoEditor */,
+				FF43108122C036420051FAA5 /* PhotoVideoEditorTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		647E6D21219986E1008C66B6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				647E6D31219986E4008C66B6 /* LaunchScreen.storyboard in Resources */,
-				647E6D6C21998737008C66B6 /* StickerCollectionViewCell.xib in Resources */,
-				647E6D7821998737008C66B6 /* PhotoEditor.storyboard in Resources */,
-				647E6D7721998737008C66B6 /* ColorCollectionViewCell.xib in Resources */,
-				647E6D2E219986E4008C66B6 /* Assets.xcassets in Resources */,
-				647E6D7321998737008C66B6 /* EmojiCollectionViewCell.xib in Resources */,
-				647E6D2C219986E1008C66B6 /* Main.storyboard in Resources */,
-				647E6D7521998737008C66B6 /* Eventtus-Icons.ttf in Resources */,
-				647E6D6A21998737008C66B6 /* BottomSheetViewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		647E6D35219986E4008C66B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -461,14 +387,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF43103922C033AA0051FAA5 /* Resources */ = {
+		FF43106422C035C90051FAA5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF43104122C033AA0051FAA5 /* Resources */ = {
+		FF43107822C036420051FAA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF43108022C036420051FAA5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -478,36 +411,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		647E6D1F219986E1008C66B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				647E6D7A21998737008C66B6 /* ColorCollectionViewCell.swift in Sources */,
-				647E6D29219986E1008C66B6 /* ViewController.swift in Sources */,
-				647E6D6D21998737008C66B6 /* EmojiCollectionViewCell.swift in Sources */,
-				647E6D7021998737008C66B6 /* PhotoEditorViewController.swift in Sources */,
-				647E6D87219989EC008C66B6 /* SwiftyRecordButton.swift in Sources */,
-				647E6D6E21998737008C66B6 /* UIImageExtensions.swift in Sources */,
-				647E6D85219989EC008C66B6 /* SwiftyCamViewController.swift in Sources */,
-				647E6D7221998737008C66B6 /* WatermarkCompositionInstruction.swift in Sources */,
-				647E6D27219986E1008C66B6 /* AppDelegate.swift in Sources */,
-				647E6D7621998737008C66B6 /* ColorsCollectionViewDelegate.swift in Sources */,
-				647E6D86219989EC008C66B6 /* SwiftyCamViewControllerDelegate.swift in Sources */,
-				647E6D7421998737008C66B6 /* ViewGestures.swift in Sources */,
-				647E6D6B21998737008C66B6 /* StickerCollectionViewCell.swift in Sources */,
-				647E6D6921998737008C66B6 /* GradientView.swift in Sources */,
-				647E6D84219989EC008C66B6 /* PreviewView.swift in Sources */,
-				647E6D8A21998B8A008C66B6 /* CameraVC.swift in Sources */,
-				647E6D83219989EC008C66B6 /* SwiftyCamButton.swift in Sources */,
-				647E6D7921998737008C66B6 /* UIView+Image.swift in Sources */,
-				647E6D6821998737008C66B6 /* Pencil.swift in Sources */,
-				647E6D7121998737008C66B6 /* UIImageViewExtensions.swift in Sources */,
-				647E6D7B21998737008C66B6 /* EmojisCollectionViewDelegate.swift in Sources */,
-				647E6D88219989EC008C66B6 /* Orientation.swift in Sources */,
-				647E6D6F21998737008C66B6 /* BottomSheetViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		647E6D33219986E4008C66B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -522,48 +425,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF43103722C033AA0051FAA5 /* Sources */ = {
+		FF43106222C035C90051FAA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF43106C22C035C90051FAA5 /* videoControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF43107622C036420051FAA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF43103F22C033AA0051FAA5 /* Sources */ = {
+		FF43107E22C036420051FAA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF43104B22C033AA0051FAA5 /* videoControllerTests.swift in Sources */,
+				FF43108822C036420051FAA5 /* PhotoVideoEditorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		647E6D39219986E4008C66B6 /* PBXTargetDependency */ = {
+		FF43108522C036420051FAA5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 647E6D22219986E1008C66B6 /* PhotoVideoEditor */;
-			targetProxy = 647E6D38219986E4008C66B6 /* PBXContainerItemProxy */;
-		};
-		647E6D44219986E5008C66B6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 647E6D22219986E1008C66B6 /* PhotoVideoEditor */;
-			targetProxy = 647E6D43219986E5008C66B6 /* PBXContainerItemProxy */;
-		};
-		FF43104622C033AA0051FAA5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FF43103A22C033AA0051FAA5 /* videoController */;
-			targetProxy = FF43104522C033AA0051FAA5 /* PBXContainerItemProxy */;
-		};
-		FF43104822C033AA0051FAA5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 647E6D22219986E1008C66B6 /* PhotoVideoEditor */;
-			targetProxy = FF43104722C033AA0051FAA5 /* PBXContainerItemProxy */;
-		};
-		FF43104F22C033AA0051FAA5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FF43103A22C033AA0051FAA5 /* videoController */;
-			targetProxy = FF43104E22C033AA0051FAA5 /* PBXContainerItemProxy */;
+			target = FF43107922C036420051FAA5 /* PhotoVideoEditor */;
+			targetProxy = FF43108422C036420051FAA5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -703,51 +594,13 @@
 			};
 			name = Release;
 		};
-		647E6D4C219986E5008C66B6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G6CW59CC94;
-				INFOPLIST_FILE = PhotoVideoEditor/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.PhotoVideoEditor;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		647E6D4D219986E5008C66B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G6CW59CC94;
-				INFOPLIST_FILE = PhotoVideoEditor/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.PhotoVideoEditor;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		647E6D4F219986E5008C66B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7X2KJ7S3VX;
+				DEVELOPMENT_TEAM = G6CW59CC94;
 				INFOPLIST_FILE = PhotoVideoEditorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -768,7 +621,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7X2KJ7S3VX;
+				DEVELOPMENT_TEAM = G6CW59CC94;
 				INFOPLIST_FILE = PhotoVideoEditorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -823,7 +676,45 @@
 			};
 			name = Release;
 		};
-		FF43105322C033AA0051FAA5 /* Debug */ = {
+		FF43107322C035C90051FAA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6CW59CC94;
+				INFOPLIST_FILE = videoControllerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.videoControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF43107422C035C90051FAA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6CW59CC94;
+				INFOPLIST_FILE = videoControllerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.videoControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF43108C22C036420051FAA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -833,7 +724,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = videoController/Info.plist;
+				INFOPLIST_FILE = PhotoVideoEditor/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -841,7 +732,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.videoController;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.PhotoVideoEditor;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -851,7 +742,7 @@
 			};
 			name = Debug;
 		};
-		FF43105422C033AA0051FAA5 /* Release */ = {
+		FF43108D22C036420051FAA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -861,7 +752,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = videoController/Info.plist;
+				INFOPLIST_FILE = PhotoVideoEditor/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -869,7 +760,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.videoController;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.PhotoVideoEditor;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -879,45 +770,41 @@
 			};
 			name = Release;
 		};
-		FF43105522C033AA0051FAA5 /* Debug */ = {
+		FF43108F22C036420051FAA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G6CW59CC94;
-				INFOPLIST_FILE = videoControllerTests/Info.plist;
+				INFOPLIST_FILE = PhotoVideoEditorTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.videoControllerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.PhotoVideoEditorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoVideoEditor.app/PhotoVideoEditor";
 			};
 			name = Debug;
 		};
-		FF43105622C033AA0051FAA5 /* Release */ = {
+		FF43109022C036420051FAA5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G6CW59CC94;
-				INFOPLIST_FILE = videoControllerTests/Info.plist;
+				INFOPLIST_FILE = PhotoVideoEditorTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.videoControllerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.PhotoVideoEditorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoVideoEditor.app/PhotoVideoEditor";
 			};
 			name = Release;
 		};
@@ -929,15 +816,6 @@
 			buildConfigurations = (
 				647E6D49219986E5008C66B6 /* Debug */,
 				647E6D4A219986E5008C66B6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		647E6D4B219986E5008C66B6 /* Build configuration list for PBXNativeTarget "PhotoVideoEditor" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				647E6D4C219986E5008C66B6 /* Debug */,
-				647E6D4D219986E5008C66B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -960,20 +838,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF43105722C033AA0051FAA5 /* Build configuration list for PBXNativeTarget "videoController" */ = {
+		FF43107222C035C90051FAA5 /* Build configuration list for PBXNativeTarget "videoControllerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF43105322C033AA0051FAA5 /* Debug */,
-				FF43105422C033AA0051FAA5 /* Release */,
+				FF43107322C035C90051FAA5 /* Debug */,
+				FF43107422C035C90051FAA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF43105822C033AA0051FAA5 /* Build configuration list for PBXNativeTarget "videoControllerTests" */ = {
+		FF43108B22C036420051FAA5 /* Build configuration list for PBXNativeTarget "PhotoVideoEditor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF43105522C033AA0051FAA5 /* Debug */,
-				FF43105622C033AA0051FAA5 /* Release */,
+				FF43108C22C036420051FAA5 /* Debug */,
+				FF43108D22C036420051FAA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF43108E22C036420051FAA5 /* Build configuration list for PBXNativeTarget "PhotoVideoEditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF43108F22C036420051FAA5 /* Debug */,
+				FF43109022C036420051FAA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

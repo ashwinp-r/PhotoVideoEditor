@@ -3,7 +3,7 @@
 //  videoController
 //
 //  Created by Ashwin Ramachandran on 6/23/19.
-//  Copyright © 2019 Faris Albalawi. All rights reserved.
+//  Copyright © 2019 Ashwin Ramachandran. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
